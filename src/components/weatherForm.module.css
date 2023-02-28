@@ -1,0 +1,19 @@
+.container{
+    margin: 10px 0;
+    margin-bottom: 30px;    
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 0;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 515px) {
+    .container{
+        margin: 10vw;
+    }
+}
